@@ -5,6 +5,7 @@ alias ....='cd ../../..'
 alias .....='cd ../../../..'
 alias ls='gls --color=auto'
 alias la='ls -la'
+alias ll='ls -l'
 alias cd=cdls
 
 # the concurrent execution of cd and ls
