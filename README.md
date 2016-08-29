@@ -7,8 +7,8 @@ These files are for 'MacOS', so may not work well with 'Linux' etc.
 dotfiles  
 |-- README.md  
 |-- .bashrc　　　　# alias and function ...etc of bash  
-|-- .bash_profile　# enviroment variables of bash  
+|-- .bash_profile　 # enviroment variables of bash  
 |-- .vimrc　　　　 # vim setting   
-|-- .tmux　　　　　# now, there are no setting in this file  
+|-- .tmux　　　　# now, there are no setting in this file  
 |-- .zshrc　　　　 # zsh setting  
 |-- setup.sh　　　 # the shell script for reload setiing   
