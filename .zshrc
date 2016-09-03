@@ -29,6 +29,16 @@ alias df='df -h'
 
 alias cd=cdls
 
+alias dr='cd ~/Dropbox'
+alias doc='cd ~/Documents'
+alias dot='cd ~/dotfiles'
+
+alias ga='git add .'
+alias gc='git commit'
+alias gcm='git commit -m'
+alias push='git push'
+alias pull='git pull'
+
 # Command history
 HISTFILE=~/.zsh_history
 HISTSIZE=100000
