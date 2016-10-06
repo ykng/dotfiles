@@ -1,5 +1,5 @@
 # dotfiles
-when adding new dotfile, you must modify "setup.sh" by adding new file name in list of "DOT_FILE".
+when adding new dotfile, you must modify "setup.sh" by adding new file name in list of "DOT_FILE".  
 These files are for 'MacOS', so may not work well with 'Linux' etc.
 
 
