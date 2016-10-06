@@ -9,6 +9,7 @@ colors
 # Environment Variables 
 export LANG=ja_JP.UTF-8
 export CLICOLOR=1
+export JAVA_HOME=`/usr/libexec/java_home`
 
 # Prompt
 PROMPT="%~ %# "
@@ -33,11 +34,14 @@ alias dr='cd ~/Dropbox'
 alias doc='cd ~/Documents'
 alias dot='cd ~/dotfiles'
 
+alias gs='git status'
 alias ga='git add .'
 alias gc='git commit'
 alias gcm='git commit -m'
 alias push='git push'
 alias pull='git pull'
+
+alias reload='. ~/.zshrc'
 
 # Command history
 HISTFILE=~/.zsh_history
