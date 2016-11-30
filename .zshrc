@@ -10,6 +10,7 @@ colors
 export LANG=ja_JP.UTF-8
 export CLICOLOR=1
 export JAVA_HOME=`/usr/libexec/java_home`
+export PATH=$PATH:~/.nodebrew/current/bin
 
 # Prompt
 PROMPT="%~ %# "
@@ -33,7 +34,13 @@ alias cd=cdls
 alias dr='cd ~/Dropbox'
 alias doc='cd ~/Documents'
 alias dot='cd ~/dotfiles'
+alias web='cd /Library/WebServer/Documents/'
 
+alias reload='. ~/.zshrc'
+
+# Git aliases
+alias gb='git branch'
+alias gc='git checkout'
 alias gs='git status'
 alias gd='git diff'
 alias ga='git add'
@@ -42,8 +49,7 @@ alias gc='git commit'
 alias gcm='git commit -m'
 alias push='git push'
 alias pull='git pull'
-
-alias reload='. ~/.zshrc'
+alias glog='git log --graph'
 
 # Command history
 HISTFILE=~/.zsh_history
